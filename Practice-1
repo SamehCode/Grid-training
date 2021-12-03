@@ -1,0 +1,65 @@
+(css code 
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    font-size: 27px;
+}
+.container{
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: 35vw 35vw;
+    grid-template-rows: 45vh 45vh;
+    grid-template-areas: 
+    "top top" "bottomLeft bottomRight";
+    border: 2px solid yellow;
+    grid-gap: 15px;
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  }
+#one{
+    grid-area: top;
+}
+.image{
+    
+} )
+
+(html code 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+  <div class="container">
+    <div class="box" id="one">Box 1 <img class="image" src="design/desktop-design.jpg" alt=""></div>
+    <div class="box" id="two">Box 2</div>
+    <div class="box" id="three">Box 3</div>
+  </div>
+  Equilibrium #3429
+
+  Our Equilibrium collection promotes balance and calm.
+
+  0.041 ETH
+  3 days left
+  
+  Creation of Jules Wyvern
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>)
